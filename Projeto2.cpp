@@ -197,7 +197,7 @@ void animalTutor(animal animais[], bool idsTutores[]){
     }
     else{
         consoleClear();
-        for(int i = 0; i < N/*(N * 2)*/; i++){
+        for(int i = 0; i < N; i++){
             if(animais[i].idTutor == x){
 
                 printf("%03d\n", animais[i].id);
@@ -388,3 +388,4 @@ void consoleClear() {
     system("clear");
 #endif
 }
+
